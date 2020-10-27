@@ -18,6 +18,9 @@ import Card from './Card'
 // }
 
 const Cardlist = ({ robots }) => {
+	// if (true) {
+	// 	throw new Error("NOoooooo")
+	// }
 	return (
 	  <div>
 		{robots.map((user, i)=>{
